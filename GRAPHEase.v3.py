@@ -229,8 +229,7 @@ if page == "Visualizations":
         
         else:
             st.write("Please select a valid chart type.")
-    else:
-        st.write("Upload a dataset to see visualizations!")
+
 
 # Load CSS for footer and styling
 load_css('style.css')

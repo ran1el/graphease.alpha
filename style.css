@@ -1,12 +1,18 @@
 /* style.css */
 
-/* Footer Styling positioned at the bottom-right corner */
+.light-theme {
+    color: black; /* Dark text for light background */
+}
+
+.dark-theme {
+    color: white; /* Light text for dark background */
+}
+
 footer {
     position: fixed;
     right: 20px;  /* Position the footer on the right */
     bottom: 10px; /* Position the footer at the bottom */
     font-size: 14px;
-    color: #dcd7d7;
     text-align: right;
     padding: 5px;
 }
